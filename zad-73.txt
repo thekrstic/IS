@@ -1,0 +1,4 @@
+49. Informacioni sistem firme Pakom - Pakom je uspesna domaca kompanija koja se bavi prodajom racunarskih komponenti. Musterije mogu izvrsiti kupovinu u nekoj od prodavnica Pakoma ili putem web portala kompanije. Narucena roba se moze platiti elektronski (karticom banke) ili prilikom dostave. Isporuka robe na teritoriji Srbije je besplatna. Baza podataka Pakom-a sadrzi informacije o svakoj od 3000 racunarskih komponenti koje se trenutno nalaze u prodaji. On-line kupovinu i placanje je moguce izvrsiti iskljucivo ukoliko se musterija prethodno registrovala na sistem za placanje Pakoma.
+
+
+Obrazac: Dokument

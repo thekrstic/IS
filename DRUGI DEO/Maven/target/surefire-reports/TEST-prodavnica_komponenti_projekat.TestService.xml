@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="prodavnica_komponenti_projekat.TestService" time="0.576" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\krstic\Desktop\IS 18717\Maven\target\test-classes;C:\Users\krstic\Desktop\IS 18717\Maven\target\classes;C:\Users\krstic\.m2\repository\org\eclipse\persistence\javax.persistence\2.0.0\javax.persistence-2.0.0.jar;C:\Users\krstic\.m2\repository\org\hibernate\hibernate-entitymanager\4.2.8.Final\hibernate-entitymanager-4.2.8.Final.jar;C:\Users\krstic\.m2\repository\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;C:\Users\krstic\.m2\repository\org\hibernate\hibernate-core\4.2.8.Final\hibernate-core-4.2.8.Final.jar;C:\Users\krstic\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\krstic\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\krstic\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\krstic\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\krstic\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\krstic\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\krstic\.m2\repository\mysql\mysql-connector-java\5.1.41\mysql-connector-java-5.1.41.jar;C:\Users\krstic\.m2\repository\org\jboss\spec\javax\annotation\jboss-annotations-api_1.2_spec\1.0.0.Final\jboss-annotations-api_1.2_spec-1.0.0.Final.jar;C:\Users\krstic\.m2\repository\javax\enterprise\cdi-api\1.0-SP1\cdi-api-1.0-SP1.jar;C:\Users\krstic\.m2\repository\org\jboss\interceptor\jboss-interceptor-api\1.1\jboss-interceptor-api-1.1.jar;C:\Users\krstic\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\krstic\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\krstic\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\krstic\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\krstic\.m2\repository\org\jboss\spec\javax\ejb\jboss-ejb-api_3.2_spec\1.0.0.Final\jboss-ejb-api_3.2_spec-1.0.0.Final.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\krstic\AppData\Local\Temp\surefire296945347377675440\surefirebooter-20240114210725765_3.jar C:\Users\krstic\AppData\Local\Temp\surefire296945347377675440 2024-01-14T21-07-25_290-jvmRun1 surefire-20240114210725765_1tmp surefire_0-20240114210725765_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\krstic\Desktop\IS 18717\Maven\target\test-classes;C:\Users\krstic\Desktop\IS 18717\Maven\target\classes;C:\Users\krstic\.m2\repository\org\eclipse\persistence\javax.persistence\2.0.0\javax.persistence-2.0.0.jar;C:\Users\krstic\.m2\repository\org\hibernate\hibernate-entitymanager\4.2.8.Final\hibernate-entitymanager-4.2.8.Final.jar;C:\Users\krstic\.m2\repository\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;C:\Users\krstic\.m2\repository\org\hibernate\hibernate-core\4.2.8.Final\hibernate-core-4.2.8.Final.jar;C:\Users\krstic\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\krstic\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\krstic\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\krstic\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\krstic\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\krstic\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\krstic\.m2\repository\mysql\mysql-connector-java\5.1.41\mysql-connector-java-5.1.41.jar;C:\Users\krstic\.m2\repository\org\jboss\spec\javax\annotation\jboss-annotations-api_1.2_spec\1.0.0.Final\jboss-annotations-api_1.2_spec-1.0.0.Final.jar;C:\Users\krstic\.m2\repository\javax\enterprise\cdi-api\1.0-SP1\cdi-api-1.0-SP1.jar;C:\Users\krstic\.m2\repository\org\jboss\interceptor\jboss-interceptor-api\1.1\jboss-interceptor-api-1.1.jar;C:\Users\krstic\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\krstic\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\krstic\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\krstic\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\krstic\.m2\repository\org\jboss\spec\javax\ejb\jboss-ejb-api_3.2_spec\1.0.0.Final\jboss-ejb-api_3.2_spec-1.0.0.Final.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\krstic"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="basedir" value="C:\Users\krstic\Desktop\IS 18717\Maven"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\krstic\AppData\Local\Temp\surefire296945347377675440\surefirebooter-20240114210725765_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="krstic"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\krstic\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\krstic\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="C:\Users\krstic\Desktop\IS 18717\Maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="jboss.i18n.generate-proxies" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/krstic/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Users/krstic/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\krstic\AppData\Local\Microsoft\WindowsApps;C:\Users\krstic\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\krstic\.dotnet\tools;C:\Users\krstic\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\krstic\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAssertions" classname="prodavnica_komponenti_projekat.TestService" time="0.573">
+    <system-out><![CDATA[Hibernate: 
+    select
+        musterija0_.id_musterija as id_muste1_0_,
+        musterija0_.adresa as adresa2_0_,
+        musterija0_.ime as ime3_0_,
+        musterija0_.prezime as prezime4_0_,
+        musterija0_.telefon as telefon5_0_,
+        musterija0_.username as username6_0_ 
+    from
+        musterija musterija0_
+U bazi ima postojecih musterija
+Hibernate: 
+    select
+        proizvod0_.id_proizvod as id_proiz1_4_,
+        proizvod0_.cena as cena2_4_,
+        proizvod0_.kolicina as kolicina3_4_,
+        proizvod0_.naziv as naziv4_4_,
+        proizvod0_.serijski_broj as serijski5_4_,
+        proizvod0_.slika as slika6_4_,
+        proizvod0_.tip_komponente as tip_komp7_4_ 
+    from
+        proizvod proizvod0_
+U bazi ima unesenih proizvoda
+Hibernate: 
+    select
+        proizvod0_.id_proizvod as id_proiz1_4_0_,
+        proizvod0_.cena as cena2_4_0_,
+        proizvod0_.kolicina as kolicina3_4_0_,
+        proizvod0_.naziv as naziv4_4_0_,
+        proizvod0_.serijski_broj as serijski5_4_0_,
+        proizvod0_.slika as slika6_4_0_,
+        proizvod0_.tip_komponente as tip_komp7_4_0_ 
+    from
+        proizvod proizvod0_ 
+    where
+        proizvod0_.id_proizvod=?
+Proizvod pronadjen u test3
+Hibernate: 
+    select
+        musterija0_.id_musterija as id_muste1_0_0_,
+        musterija0_.adresa as adresa2_0_0_,
+        musterija0_.ime as ime3_0_0_,
+        musterija0_.prezime as prezime4_0_0_,
+        musterija0_.telefon as telefon5_0_0_,
+        musterija0_.username as username6_0_0_ 
+    from
+        musterija musterija0_ 
+    where
+        musterija0_.id_musterija=?
+Pronadjen je trazeni musterija
+Kraj testService!
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000006: Autocommit mode: true
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/prodavnica_komponenti_projekat]
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+Sun Jan 14 21:07:28 CET 2024 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Jan 14, 2024 9:07:28 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Jan 14, 2024 9:07:28 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jan 14, 2024 9:07:28 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jan 14, 2024 9:07:28 PM org.hibernate.ejb.internal.EntityManagerFactoryRegistry addEntityManagerFactory
+WARN: HHH000436: Entity manager factory name (ProdavnicaPU) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000006: Autocommit mode: true
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/prodavnica_komponenti_projekat]
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+Sun Jan 14 21:07:28 CET 2024 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Jan 14, 2024 9:07:28 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Jan 14, 2024 9:07:28 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jan 14, 2024 9:07:28 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jan 14, 2024 9:07:28 PM org.hibernate.ejb.internal.EntityManagerFactoryRegistry addEntityManagerFactory
+WARN: HHH000436: Entity manager factory name (ProdavnicaPU) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000006: Autocommit mode: true
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/prodavnica_komponenti_projekat]
+Jan 14, 2024 9:07:28 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+Sun Jan 14 21:07:28 CET 2024 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Jan 14, 2024 9:07:28 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Jan 14, 2024 9:07:28 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jan 14, 2024 9:07:28 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jan 14, 2024 9:07:29 PM org.hibernate.ejb.internal.EntityManagerFactoryRegistry addEntityManagerFactory
+WARN: HHH000436: Entity manager factory name (ProdavnicaPU) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+Jan 14, 2024 9:07:29 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Jan 14, 2024 9:07:29 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20
+Jan 14, 2024 9:07:29 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000006: Autocommit mode: true
+Jan 14, 2024 9:07:29 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/prodavnica_komponenti_projekat]
+Jan 14, 2024 9:07:29 PM org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+Sun Jan 14 21:07:29 CET 2024 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Jan 14, 2024 9:07:29 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Jan 14, 2024 9:07:29 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Jan 14, 2024 9:07:29 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Jan 14, 2024 9:07:29 PM org.hibernate.ejb.internal.EntityManagerFactoryRegistry addEntityManagerFactory
+WARN: HHH000436: Entity manager factory name (ProdavnicaPU) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+]]></system-err>
+  </testcase>
+</testsuite>

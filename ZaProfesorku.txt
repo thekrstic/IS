@@ -1,0 +1,4 @@
+Postovana profesorka,
+	za crtanje UseCase, Sekvencijalnog i 
+	Klasnog dijagrama kao i dijagrama Aktivnosti 
+	koristio sam program Astah Professional.
